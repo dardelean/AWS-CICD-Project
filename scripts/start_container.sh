@@ -2,7 +2,7 @@
 set -e
 
 # Remove any existing container
-docker rm -f laughing_feistel || true
+docker rm -f hotel-app || true
 
 # Pull the Docker image from Docker Hub
 docker pull dardelean/hotel-app:latest
